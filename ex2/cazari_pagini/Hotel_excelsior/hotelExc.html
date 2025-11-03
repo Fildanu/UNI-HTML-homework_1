@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel_excelsior</title>
+</head>
+<body>
+    <header>
+        <h1><a href="../../pagina_principala.html">Bergamo</a> <img src="../../imagini/stema/Provincia_di_Bergamo-Stemma.svg.png" alt = "Stema Bergamo" width = "80"></h1>
+    </header>
+    <hr>
+    <header>
+        <h1>Hotel Excelsior San Marco</h1>
+        <img src="./hotelExc_1.jpg" alt="Hotel Excelsior San Marco" width="300" height="200">
+        <img src="./hotelExc_2.jpg" alt="Hotel Excelsior San Marco" width="300" height="200">
+        <img src="./hotelExc_3.jpg" alt="Hotel Excelsior San Marco" width="300" height="200">
+        <img src="./hotelExc_4.jpg" alt="Hotel Excelsior San Marco" width="300" height="200">
+        <img src="./hotelExc_5.jpg" alt="Hotel Excelsior San Marco" width="300" height="200">   
+    </header>
+    
+    <main>
+        <h3>Descopera Hotel Excelsior San Marco, o cazare eleganta in Bergamo</h3>        
+        <p>Hotel Excelsior San Marco este un hotel de 4 stele situat in centrul orasului Bergamo, oferind camere confortabile si servicii de inalta calitate. Hotelul dispune de facilitati moderne, inclusiv un restaurant, un centru de fitness si sali de conferinte. Este o alegere ideala pentru turistii care doresc sa exploreze frumusetile istorice si culturale ale Bergamo, precum si pentru calatorii de afaceri.</p>
+
+         <h2>Formular de Rezervare</h2>
+        <form action="#" method="post">
+            
+            <fieldset>
+                <legend>Informații Personale</legend>
+                <p>
+                    <label for="nume">Nume:</label><br>
+                    <input type="text" id="nume" name="nume" required>
+                </p>
+                <p>
+                    <label for="prenume">Prenume:</label><br>
+                    <input type="text" id="prenume" name="prenume" required>
+                </p>
+                <p>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </p>
+                <p>
+                    <label for="telefon">Telefon:</label><br>
+                    <input type="tel" id="telefon" name="telefon" required>
+                </p>
+            </fieldset>
+
+            
+            <fieldset>
+                <legend>Detalii Rezervare</legend>
+                <p>
+                    <label for="check-in">Data Check-in:</label><br>
+                    <input type="date" id="check-in" name="check-in" required>
+                </p>
+                <p>
+                    <label for="check-out">Data Check-out:</label><br>
+                    <input type="date" id="check-out" name="check-out" required>
+                </p>
+                <p>
+                    <label for="nr-persoane">Număr de persoane:</label><br>
+                    <input type="number" id="nr-persoane" name="nr-persoane" min="1" max="4" required>
+                </p>
+                <p>
+                    <label for="tip-camera">Tip Cameră:</label><br>
+                    <select id="tip-camera" name="tip-camera" required>
+                        <option value="">Selectați tipul camerei</option>
+                        <option value="single">Cameră Single</option>
+                        <option value="double">Cameră Double</option>
+                        <option value="twin">Cameră Twin</option>
+                        <option value="suite">Suite</option>
+                    </select>
+                </p>
+            </fieldset>
+
+            
+            <fieldset>
+                <legend>Preferințe Suplimentare</legend>
+                <p>
+                    <input type="checkbox" id="pat-suplimentar" name="pat-suplimentar">
+                    <label for="pat-suplimentar">Pat suplimentar</label>
+                </p>
+                <p>
+                    <input type="checkbox" id="mic-dejun" name="mic-dejun">
+                    <label for="mic-dejun">Mic dejun inclus</label>
+                </p>
+                <p>
+                    <input type="checkbox" id="parcare" name="parcare">
+                    <label for="parcare">Loc de parcare</label>
+                </p>
+                <p>
+                    <label for="mentiuni">Mențiuni speciale:</label><br>
+                    <textarea id="mentiuni" name="mentiuni" rows="4" cols="50"></textarea>
+                </p>
+            </fieldset>
+
+            
+            <p>
+                <input type="checkbox" id="termeni" name="termeni" required>
+                <label for="termeni">Sunt de acord cu termenii și condițiile</label>
+            </p>
+
+            
+            <p>
+                <button type="submit">Trimite Rezervarea</button>
+                <button type="reset">Resetează Formularul</button>
+            </p>
+        </form>
+    </main>
+    <footer>
+        <hr>
+        <p>&copy; 2025. Fildan Gabriele. Bergamo, Hotel Excelsior San Marco</p>
+    </footer>
+    
+</body>
+</html>
